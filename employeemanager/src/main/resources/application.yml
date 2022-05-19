@@ -1,0 +1,17 @@
+server:
+    port: 9099
+
+spring:
+    application:
+        name: employeemanager
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/employeemanager?serverTimezone=UTC
+        username: root
+        password: 
+        nitialization-mode: always
+    jpa:
+        hibernate:
+            ddl-auto: update
+
+
